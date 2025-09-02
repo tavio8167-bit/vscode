@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌸 Chizuru Sales 🌸</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #5e2d91;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      font-size: 22px;
+    }
+    header input {
+      padding: 8px;
+      border-radius: 6px;
+      border: none;
+      width: 250px;
+      max-width: 100%;
+    }
+    nav {
+      background: #fff;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #5e2d91;
+      font-weight: bold;
+    }
+    .banner {
+      background: #ff9900;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .banner h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    .banner button {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #5e2d91;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 0;
+    }
+    .section-title {
+      font-size: 22px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #5e2d91;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .card p {
+      color: #5e2d91;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .card a {
+      background: #5e2d91;
+      color: white;
+      padding: 8px 12px;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+    }
+    .avisos {
+      background: #fff0f5;
+      border: 1px solid #5e2d91;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 40px 0;
+      text-align: center;
+    }
+    .avisos p {
+      margin: 10px 0;
+      font-style: italic;
+    }
+    footer {
+      background: #5e2d91;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌸 Chizuru Sales 🌸</h1>
+    <input type="text" placeholder="O que você procura?">
+  </header>
+
+  <nav>
+    <a href="#avakin">Avakin</a>
+    <a href="#crowns">Crowns</a>
+    <a href="#streaming">Streaming</a>
+    <a href="#ff">Free Fire</a>
+    <a href="#robux">Robux</a>
+    <a href="#outros">Outros</a>
+  </nav>
+
+  <div class="banner">
+    <h2>Aproveite as melhores ofertas 🌸</h2>
+    <button>Ver Ofertas</button>
+  </div>
+
+  <div class="container" id="avakin">
+    <h2 class="section-title">✨ Avacoins Direto</h2>
+    <div class="grid">
+      <div class="card"><h3>1.750</h3><p>R$10,59</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>3.750</h3><p>R$19,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>6.750</h3><p>R$33,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>10.250</h3><p>R$44,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>14.000</h3><p>R$56,59</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>30.000</h3><p>R$107,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>80.000</h3><p>R$257,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>170.000</h3><p>R$520,50</p><a href="#">Comprar</a></div>
+    </div>
+  </div>
+
+  <div class="container" id="crowns">
+    <h2 class="section-title">👑 Crowns Direto</h2>
+    <div class="grid">
+      <div class="card"><h3>35</h3><p>R$10,90</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>75</h3><p>R$19,98</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>135</h3><p>R$32,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>205</h3><p>R$44,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>280</h3><p>R$56,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>600</h3><p>R$106,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>1.600</h3><p>R$256,50</p><a href="#">Comprar</a></div>
+    </div>
+  </div>
+
+  <div class="container" id="streaming">
+    <h2 class="section-title">📺 Telas Streaming</h2>
+    <div class="grid">
+      <div class="card"><h3>Prime Vídeo</h3><p>R$9,80</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>HBO Max</h3><p>R$9,90</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Disney+ Star</h3><p>R$10,98</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Paramount</h3><p>R$9,95</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Crunchyroll</h3><p>R$9,95</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Netflix</h3><p>R$15,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Globoplay</h3><p>R$9,70</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Premiere</h3><p>R$9,95</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Viki Rakuten</h3><p>R$9,95</p><a href="#">Comprar</a></div>
+    </div>
+  </div>
+
+  <div class="container" id="ff">
+    <h2 class="section-title">🔥 Diamantes Free Fire</h2>
+    <div class="grid">
+      <div class="card"><h3>100</h3><p>R$5,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>310</h3><p>R$16,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>520</h3><p>R$26,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>1060</h3><p>R$52,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>2180</h3><p>R$104,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>5600</h3><p>R$262,50</p><a href="#">Comprar</a></div>
+    </div>
+  </div>
+
+  <div class="container" id="robux">
+    <h2 class="section-title">💎 Robux</h2>
+    <div class="grid">
+      <div class="card"><h3>80</h3><p>R$5,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>400</h3><p>R$25,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>800</h3><p>R$49,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>1700</h3><p>R$104,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>4500</h3><p>R$262,50</p><a href="#">Comprar</a></div>
+    </div>
+  </div>
+
+  <div class="container" id="outros">
+    <h2 class="section-title">🛠️ Outros</h2>
+    <div class="grid">
+      <div class="card"><h3>Spotify Mensal</h3><p>R$15,50</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Canva Pro</h3><p>R$4,60</p><a href="#">Comprar</a></div>
+      <div class="card"><h3>Capcut Pro</h3><p>R$10,80</p><a href="#">Comprar</a></div>
+    </div>
+  </div>
+
+  <div class="container avisos">
+    <p>🌸 Os preços podem mudar dependendo do fornecedor. 🌸</p>
+    <p>🌸 Quer saber mais? Entre em contato na ADM! 🌸</p>
+    <p>🌸 Não me responsabilizo por decisões tomadas pelos jogos ou plataformas. 🌸</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Chizuru Sales - Todos os direitos reservados.</p>
+    <p>Siga no Instagram: <a href="https://instagram.com/chizuru.sales" target="_blank">@chizuru.sales</a></p>
+  </footer>
+</body>
+</html>
